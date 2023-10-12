@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: rgb(236, 15, 15);
+    margin-top: 50px;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 120px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font: 20px/26px Helvetica, Helvetica Neue, Arial;
+    color: rgb(255, 255, 255);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #15161b
+}
+
+h5 {
+    text-align: left;
+    background-color: gray;
+    background-size: contain;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+h4 {
+    text-align: center;
+    background-color: #ec0f0f;
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+/* responsive fondo*/
+
+@media (min-width: 300px) {
+    body {
+        background-image: url("f300.jpg");
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url("fondo600.jpg");
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url("fondo.jpg");
+    }
